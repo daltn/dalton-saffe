@@ -10,7 +10,7 @@ a {
 a:hover {
   background-color: #33ffcc;
   transition: opacity 3s ease-in-out;
-  opacity: 0.15;
+  opacity: 0.05;
 }
 
 a:visited {
