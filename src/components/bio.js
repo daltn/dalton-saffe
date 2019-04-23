@@ -16,19 +16,6 @@ function Bio() {
               marginBottom: rhythm(1),
             }}
           >
-            {/* <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt="dalton-saffe"
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `50%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            /> */}
             <p>
               Hi! I'm a full stack developer & designer who loves working with
               JavaScript, Python, data visualization, & typography. I'm
@@ -37,6 +24,20 @@ function Bio() {
               <a href={`mailto:daltonsaffe@gmail.com`}>email me</a>
               {` `}:)
             </p>
+            {/* <Image
+              fixed={data.avatar.childImageSharp.fixed}
+              alt="dalton-saffe"
+              style={{
+                marginRight: rhythm(1 / 2),
+                marginBottom: 0,
+                width: 100,
+                borderRadius: `50%`,
+                display: `block`,
+              }}
+              imgStyle={{
+                borderRadius: `50%`,
+              }}
+            /> */}
           </div>
         )
       }}
