@@ -4,12 +4,12 @@ body {
 a {
   text-decoration: none;
   color: #3a3a3a;
-  transition: opacity 2.5s ease-in-out;
+  transition: opacity 3s ease-in-out;
 }
 
 a:hover {
   background-color: #33ffcc;
-  transition: opacity 2.5s ease-in-out;
+  transition: opacity 3s ease-in-out;
   opacity: 0.15;
 }
 

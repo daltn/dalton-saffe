@@ -16,7 +16,7 @@ function Bio() {
               marginBottom: rhythm(1),
             }}
           >
-            <Image
+            {/* <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt="dalton-saffe"
               style={{
@@ -28,7 +28,7 @@ function Bio() {
               imgStyle={{
                 borderRadius: `50%`,
               }}
-            />
+            /> */}
             <p>
               Hi! I'm a full stack developer & designer who loves working with
               JavaScript, Python, data visualization, & typography. I'm
