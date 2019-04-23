@@ -9,7 +9,6 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { social } = data.site.siteMetadata
         return (
           <div
             style={{
@@ -35,9 +34,7 @@ function Bio() {
               with JavaScript & Python. I'm also a designer and musician who's
               excited by data visualization, typography, & synthesizers.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>twitter</a>
-              <br />
-              <a href={`https://github.com/daltn`}>github</a>
+              <a href={`mailto:daltonsaffe@gmail.com`}>Email me </a>
             </p>
           </div>
         )
@@ -52,13 +49,6 @@ const bioQuery = graphql`
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    site {
-      siteMetadata {
-        social {
-          twitter
         }
       }
     }
