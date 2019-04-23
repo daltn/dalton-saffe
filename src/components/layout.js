@@ -13,7 +13,7 @@ class Layout extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(1.5),
+            ...scale(2.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
           }}
@@ -68,9 +68,9 @@ class Layout extends React.Component {
           <a href={`https://twitter.com/daltonsaffe`}>twitter</a>
           {` / `}
           <a href={`https://www.linkedin.com/in/daltonsaffe/`}>linkedin</a>
-          <br /> © {new Date().getFullYear()}, Built with
+          {` / `} built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">gatsby</a>
         </footer>
       </div>
     )

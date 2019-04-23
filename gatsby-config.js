@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Dalton Saffe`,
     author: `Dalton Saffe`,
-    description: `Dalton Saffe - Developer and Designer based in Brooklyn`,
+    description: `Dalton Saffe - Software Developer and Designer based in Brooklyn`,
     siteUrl: `https://daltonsaffe.com/`,
     social: {
       twitter: `daltonsaffe`,
