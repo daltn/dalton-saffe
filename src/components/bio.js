@@ -13,7 +13,7 @@ function Bio() {
           <div
             style={{
               display: `flex`,
-              marginBottom: rhythm(2.5),
+              marginBottom: rhythm(1),
             }}
           >
             <Image
@@ -34,7 +34,8 @@ function Bio() {
               JavaScript, Python, data visualization, & typography. I'm
               currently looking for a full-time dev role in NYC so feel free to{" "}
               {` `}
-              <a href={`mailto:daltonsaffe@gmail.com`}>email me </a>:)
+              <a href={`mailto:daltonsaffe@gmail.com`}>email me</a>
+              {` `}:)
             </p>
           </div>
         )
