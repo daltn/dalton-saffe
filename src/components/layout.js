@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import style from "../styles/all.css"
 
 class Layout extends React.Component {
   render() {
@@ -14,6 +15,27 @@ class Layout extends React.Component {
         <h1
           style={{
             ...scale(2),
+            marginBottom: rhythm(1.5),
+            marginTop: 0,
+            fontWeight: 700,
+          }}
+        >
+          <Link
+            style={{
+              boxShadow: `none`,
+              textDecoration: `none`,
+            }}
+            to={`/`}
+          >
+            {title}
+          </Link>
+        </h1>
+      )
+    } else {
+      header = (
+        <h1
+          style={{
+            ...scale(1),
             marginBottom: rhythm(1.5),
             marginTop: 0,
           }}
@@ -30,34 +52,13 @@ class Layout extends React.Component {
           </Link>
         </h1>
       )
-    } else {
-      header = (
-        <h3
-          style={{
-            ...scale(2),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h3>
-      )
     }
     return (
       <div
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(25),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
@@ -69,9 +70,6 @@ class Layout extends React.Component {
           <a href={`https://twitter.com/daltonsaffe`}>twitter</a>
           {` / `}
           <a href={`https://www.linkedin.com/in/daltonsaffe/`}>linkedin</a>
-          {` / `} built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">gatsby</a>
         </footer>
       </div>
     )

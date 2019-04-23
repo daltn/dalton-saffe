@@ -1,8 +1,7 @@
 import Typography from "typography"
-import noriegaTheme from "typography-theme-noriega"
 import bootstrapTheme from "typography-theme-bootstrap"
 
-noriegaTheme.overrideThemeStyles = () => {
+bootstrapTheme.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,

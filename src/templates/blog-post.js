@@ -24,8 +24,6 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
-          <br />
           {post.frontmatter.stack}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -82,6 +80,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "YYYY")
+        stack
       }
     }
   }

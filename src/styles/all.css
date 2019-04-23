@@ -1,0 +1,17 @@
+body {
+  color: #3a3a3a;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #33ffcc;
+  transition: opacity 2.5s ease-in-out;
+  opacity: 0.15;
+}
+
+a:visited {
+  color: #3a3a3a;
+  transition: opacity 1.5s ease-in;
+}
