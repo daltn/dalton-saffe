@@ -1,5 +1,6 @@
 import Typography from "typography"
 import noriegaTheme from "typography-theme-noriega"
+import bootstrapTheme from "typography-theme-bootstrap"
 
 noriegaTheme.overrideThemeStyles = () => {
   return {
@@ -9,7 +10,7 @@ noriegaTheme.overrideThemeStyles = () => {
   }
 }
 
-const typography = new Typography(noriegaTheme)
+const typography = new Typography(bootstrapTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

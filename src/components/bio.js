@@ -30,9 +30,9 @@ function Bio() {
               }}
             />
             <p>
-              Hi! I'm a software developer who loves working across the stack
-              with JavaScript & Python. I'm also a designer and musician who's
-              excited by data visualization, typography, & synthesizers.
+              Hi! I'm a full stack developer & designer who loves working with
+              JavaScript, Python, data visualization, & typography. I'm
+              currently looking for freelance projects
               {` `}
               <a href={`mailto:daltonsaffe@gmail.com`}>Email me </a>
             </p>
