@@ -1,5 +1,3 @@
 ## Dalton Saffe
 
-- Portfolio site built to showcase recent software development work
-
-- Built with GatsbyJS
+Portfolio site built with GatsbyJS to showcase recent software development work
