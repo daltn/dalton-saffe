@@ -17,9 +17,8 @@ function Bio() {
           >
             <p>
               Hi! I'm a full stack developer & designer who loves working with
-              JavaScript, Python, data visualization, & typography. I'm
-              currently looking for a full-time dev role in NYC so feel free to{" "}
-              {` `}
+              JavaScript, Python, React, & GraphQL. I'm currently looking for a
+              full-time dev role in NYC so feel free to {` `}
               <a href={`mailto:daltonsaffe@gmail.com`}>email me</a>
               {` `}:)
             </p>
