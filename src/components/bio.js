@@ -16,26 +16,13 @@ function Bio() {
             }}
           >
             <p>
-              Hi! I'm a full stack developer & designer who loves working with
-              JavaScript, Python, React, & GraphQL. I'm currently looking for a
-              full-time dev role in NYC so feel free to {` `}
+              Hi! I'm a software developer, designer, & musician who loves
+              working with JavaScript, Python, React, & GraphQL. I'm always open
+              to chatting about interesting projects, DJing, & synthesizers so
+              feel free to {` `}
               <a href={`mailto:daltonsaffe@gmail.com`}>email me</a>
               {` `}:)
             </p>
-            {/* <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt="dalton-saffe"
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                width: 100,
-                borderRadius: `50%`,
-                display: `block`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            /> */}
           </div>
         )
       }}
