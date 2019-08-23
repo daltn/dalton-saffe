@@ -17,9 +17,9 @@ function Bio() {
           >
             <p>
               Hi! I'm a software developer, designer, & musician who loves
-              working with JavaScript, Python, React, & GraphQL. I'm always open
-              to chatting about interesting projects & synthesizers so feel free
-              to {` `}
+              working with JavaScript, Python, React, Vue, & GraphQL. I'm always
+              open to chatting about interesting projects, drum machines, &
+              synthesizers so feel free to {` `}
               <a href={`mailto:daltonsaffe@gmail.com`}>email me</a>
               {` `}:)
             </p>
