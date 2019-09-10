@@ -68,8 +68,6 @@ class Layout extends React.Component {
           {` / `}
           <a href={`https://twitter.com/daltonsaffe`}>twitter</a>
           {` / `}
-          <a href={`https://www.linkedin.com/in/daltonsaffe/`}>linkedin</a>
-          {` / `}
           <a href={`https://soundcloud.com/daltonsaffe`}>soundcloud</a>
         </footer>
       </div>
