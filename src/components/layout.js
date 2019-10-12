@@ -64,6 +64,8 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
+          <a href={`mailto:daltonsaffe@gmail.com`}>email</a>
+          {` / `}
           <a href={`https://github.com/daltn`}>github</a>
           {` / `}
           <a href={`https://twitter.com/daltonsaffe`}>twitter</a>

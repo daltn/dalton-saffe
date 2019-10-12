@@ -15,14 +15,14 @@ function Bio() {
               marginBottom: rhythm(1),
             }}
           >
-            <p>
-              Hi! I'm a software developer, designer, & musician who loves
-              working with JavaScript, Python, React, Vue, & GraphQL. I'm always
-              open to chatting about interesting projects, drum machines, &
-              synthesizers so feel free to {` `}
-              <a href={`mailto:daltonsaffe@gmail.com`}>email me</a>
-              {` `}:)
-            </p>
+            <p>Hi! I'm a software developer, artist, & musician.</p>
+            <h3 style={{ marginBottom: `0.5rem` }}>Enjoys:</h3>
+            <ul style={{ listStyle: `none`, marginLeft: `5rem` }}>
+              <li>synthesizers</li>
+              <li>house && techno</li>
+              <li>javascript || python</li>
+              <li>generative art</li>
+            </ul>
           </div>
         )
       }}
