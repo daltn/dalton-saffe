@@ -23,7 +23,7 @@ const SecondPage = () => (
     </section>
     <section>
       <h2 className="title">
-        <a href="https://www.moneycatrecs.com/">Money Cat Records/</a>
+        <a href="https://www.moneycatrecs.com/">Money Cat Records</a>
       </h2>
       <p>Gatsby, Netlify CMS</p>
       <p className="about">Site for Brooklyn dance music label</p>
