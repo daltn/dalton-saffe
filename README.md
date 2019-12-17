@@ -1,3 +1,5 @@
 # Dalton Saffe
 
-software / photos / music
+|-- software
+|-- photos
+|-- music
