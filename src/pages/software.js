@@ -30,13 +30,19 @@ const SoftwarePage = () => (
     </section>
     <section>
       <h2 className="title">
-        {" "}
         <a href="http://www.m0n0synth.com/">m0n0synth</a>
       </h2>
       <p>React, Web Audio API, Tone.js</p>
       <p className="about">
         Synthesizer & Oscilloscope built on the Web Audio API
       </p>
+    </section>
+    <section>
+      <h2 className="title">
+        <a href="https://nudityforbeginners.com/">Nudity For Beginners</a>
+      </h2>
+      <p>React, CSS Animations, Vimeo API</p>
+      <p className="about">Interactive music video</p>
     </section>
     <section>
       <h2 className="title">
