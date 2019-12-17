@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Dalton Saffe" />
     <section>
       <Link className="menu-links" to="/software">
         <h1>software</h1>

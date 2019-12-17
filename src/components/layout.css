@@ -668,7 +668,6 @@ header {
 }
 .footer a {
   margin-top: 1rem;
-  display: block;
   text-decoration: none;
 }
 .footer a:hover {
