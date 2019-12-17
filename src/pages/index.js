@@ -9,14 +9,16 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <section>
-      <Link className="menu-links" to="/dev">
-        dev
+      <Link className="menu-links" to="/software">
+        <h1>software</h1>
       </Link>
-      <Link className="menu-links" to="/page-2/">
-        photos
+      <span style={{ fontSize: `3rem` }}> / </span>
+      <Link className="menu-links" to="/photos">
+        <h1>photos</h1>
       </Link>
-      <Link className="menu-links" to="/page-2/">
-        music
+      <span style={{ fontSize: `3rem` }}> / </span>
+      <Link className="menu-links" to="/music">
+        <h1>music</h1>
       </Link>
     </section>
   </Layout>

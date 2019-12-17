@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `dalton saffe`,
-    description: `Software, photos, & music`,
+    title: `Dalton Saffe`,
+    description: `Software, photos, & dance music`,
     author: `@daltonsaffe`,
   },
   plugins: [

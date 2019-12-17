@@ -69,8 +69,8 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 3rem;
+  margin: 0;
 }
 mark {
   background-color: #ff0;
@@ -236,9 +236,9 @@ h1 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: "Rubik", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
 h2 {
@@ -616,30 +616,33 @@ pre tt:after {
 }
 header {
   margin: 1rem 0;
-  border: 1px solid cyan;
 }
 .header {
   font-weight: normal;
   text-decoration: none;
   letter-spacing: -1px;
   transition: all 500ms ease-out;
+  font-size: 3rem;
+  border-bottom: 1px solid cyan;
+  transition: all 4200ms ease-out;
 }
 .header:hover {
-  text-decoration: underline;
-  transition: all 500ms ease-out;
+  transition: all 4200ms ease-out;
   opacity: 0.8;
   filter: blur(5px);
+  background-color: cyan;
 }
-.menu-links {
+.menu-links > h1 {
   font-size: 3rem;
-  display: block;
-  line-height: 4rem;
+  display: inline;
   text-decoration: none;
   transition: all 2s ease-in-out;
 }
+.menu-links {
+  text-decoration: none;
+}
 .menu-links:hover {
   text-decoration: underline;
-  transition: all 2s ease-in-out;
 }
 .container {
   margin: 0 auto;
