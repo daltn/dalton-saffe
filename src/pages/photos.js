@@ -1,19 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Image from "../components/image"
-import img from "../images/86870013.jpg"
+import PhotoFeed from "../components/PhotoFeed"
 
-const PhotosPage = () => (
-  <Layout>
-    <SEO title="photos" />
-    <h1>photos</h1>
-    <p></p>
-    <Image />
-    <img src={img} />
-    <p>lots more soon :)</p>
-  </Layout>
-)
+const PhotosPage = () => {
+  return (
+    <Layout>
+      <SEO title="photos" />
+      <h1>photos</h1>
+      <p></p>
+      <PhotoFeed />
+      <p>lots more soon</p>
+    </Layout>
+  )
+}
 
 export default PhotosPage
