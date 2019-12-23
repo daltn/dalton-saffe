@@ -28,8 +28,21 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className="container">{children}</main>
       <footer className="container footer">
-        <a href="mailto:daltonsaffe@gmail.com">contact</a> /{" "}
-        <a href="https://github.com/daltn">github</a>
+        <a
+          href="mailto:daltonsaffe@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          contact
+        </a>{" "}
+        /{" "}
+        <a
+          href="https://github.com/daltn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          github
+        </a>
       </footer>
     </>
   )
