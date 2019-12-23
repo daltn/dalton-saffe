@@ -5,7 +5,10 @@ import Img from "gatsby-image"
 const PhotoFeed = () => {
   const data = useStaticQuery(graphql`
     query PhotoDir {
-      allFile(filter: { extension: { regex: "/(jpg)/" } }) {
+      allFile(
+        filter: { extension: { regex: "/(jpg)/" } }
+        sort: { fields: name }
+      ) {
         edges {
           node {
             id
@@ -21,18 +24,17 @@ const PhotoFeed = () => {
     }
   `)
   const images = data.allFile.edges
-  console.log(images)
   return (
-    <>
+    <section>
       {images.map(image => (
         <Img
           key={image.node.childImageSharp.fluid.src}
           fluid={image.node.childImageSharp.fluid}
-          style={{ margin: "3rem 0" }}
+          className="photo"
           alt="dalton saffe photo"
         />
       ))}
-    </>
+    </section>
   )
 }
 

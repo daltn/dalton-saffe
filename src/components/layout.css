@@ -645,8 +645,8 @@ header {
   text-decoration: underline;
 }
 .container {
-  margin-left: 10%;
-  width: 70%;
+  margin: 0 auto;
+  width: 75%;
 }
 .about {
   margin: 1rem 0;
@@ -673,11 +673,23 @@ header {
 .footer a:hover {
   text-decoration: underline;
 }
-img {
-  margin-top: 2rem;
+.photo {
+  margin: 8vw 0;
 }
-@media only screen and (max-width: 480px) {
+.photo:first-of-type {
+  margin-top: 0;
+}
+ul {
+  list-style: none;
+  margin: 0 0 3rem;
+  padding: 0;
+}
+
+@media only screen and (max-width: 780px) {
   html {
     font-size: 100%;
+  }
+  .container {
+    width: 95%;
   }
 }

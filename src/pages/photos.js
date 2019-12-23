@@ -8,9 +8,12 @@ const PhotosPage = () => {
     <Layout>
       <SEO title="photos" />
       <h1>photos</h1>
-      <p></p>
+      <ul>
+        <li>minolta zoom 130c</li>
+        <li>canon ae-1</li>
+        <li>fujifilm xf10</li>
+      </ul>
       <PhotoFeed />
-      <p>lots more soon</p>
     </Layout>
   )
 }
