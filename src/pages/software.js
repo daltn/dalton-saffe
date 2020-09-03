@@ -9,14 +9,19 @@ const SoftwarePage = () => (
     <section>
       <h2 className="title">
         {" "}
-        <a href="https://www.gatheringgrowth.com/">Gathering Growth</a>
+        <a href="http://artcamplibrary.com/">Art Camp Library</a>
       </h2>
-      <p>Gatsby, Netlify CMS</p>
-
       <p className="about">
-        An archive of Champion Trees in the United States by photographer /
-        archivist <a href="http://www.briankelley.nyc/">Brian Kelley</a> & Sara
-        Meghdari.
+        Randomized art generator. <br /> Design by  <a href="https://www.madeatartcamp.com/">Art Camp</a>
+      </p>
+    </section>
+    <section>
+      <h2 className="title">
+        {" "}
+        <a href="https://www.listening-point.com/">Listening Point</a>
+      </h2>
+      <p className="about">
+        Bar / Sauna splash page. <br />  Design by  <a href="https://www.madeatartcamp.com/">Art Camp</a>
       </p>
     </section>
     <section>
